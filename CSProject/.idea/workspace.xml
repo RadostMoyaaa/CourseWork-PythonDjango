@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b5a75ba-e099-4070-a28c-856b32fe80d5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="CarSharing@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="CarSharing@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="CarSharing" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="CarSharing@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="CarSharing" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="CarSharing@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="CarSharing" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/724244c7-27b7-4c81-a9fc-2bc8a6bdb343" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/724244c7-27b7-4c81-a9fc-2bc8a6bdb343">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>724244c7-27b7-4c81-a9fc-2bc8a6bdb343</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.7447180301826848" x="626.6336390784983" y="954.1158276450512" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Columns</Category>
+                <Category>Key columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/model.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/autos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Посмотреть</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Добавить</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CSProject/settings.py" />
+        <option value="$PROJECT_DIR$/CSProject/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Model/models.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Mark/show_mark_models.html" />
+        <option value="$PROJECT_DIR$/MyCar/models.py" />
+        <option value="$PROJECT_DIR$/MyCar/admin.py" />
+        <option value="$PROJECT_DIR$/MyCar/migrations/0005_auto_20171219_1359.py" />
+        <option value="$PROJECT_DIR$/templates/admin/admin_add.html" />
+        <option value="$PROJECT_DIR$/templates/admin/admin_menu.html" />
+        <option value="$PROJECT_DIR$/templates/admin/admin_edit.html" />
+        <option value="$PROJECT_DIR$/MyCar/forms.py" />
+        <option value="$PROJECT_DIR$/templates/admin/admin_delete.html" />
+        <option value="$PROJECT_DIR$/templates/admin/rent/show.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Rank/show.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Operator/show.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Tariff/show.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Fuel/show.html" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/templates/footer.html" />
+        <option value="$PROJECT_DIR$/templates/tariff.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Mark/show.html" />
+        <option value="$PROJECT_DIR$/MyCar/urls.py" />
+        <option value="$PROJECT_DIR$/templates/admin/Model/show.html" />
+        <option value="$PROJECT_DIR$/MyCar/static/css/style.css" />
+        <option value="$PROJECT_DIR$/MyCar/views.py" />
+        <option value="$PROJECT_DIR$/templates/operators.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/autos.html" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/model.html" />
+        <option value="$PROJECT_DIR$/templates/main_page.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="63" />
+    <option name="width" value="1346" />
+    <option name="height" value="680" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCar" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Mark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PyProjects\CSProject\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PyProjects\CSProject\templates\admin" />
+      <recent name="C:\PyProjects\CSProject\templates\admin\rent" />
+      <recent name="C:\PyProjects\CSProject\MyCar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.CSProject">
+    <configuration name="CSProject" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="CSProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CSProject" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b5a75ba-e099-4070-a28c-856b32fe80d5" name="Default" comment="" />
+      <created>1513592098824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513592098824</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20065789" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="143" lean-forward="false" selection-start-line="54" selection-start-column="143" selection-end-line="54" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/rent/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="79" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/CSProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/templates/base.html" />
+    <entry file="file://C:/Program Files (x86)/Python/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="296" column="42" lean-forward="false" selection-start-line="296" selection-start-column="34" selection-end-line="296" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Model/models.html" />
+    <entry file="file://$PROJECT_DIR$/MyCar/migrations/0005_auto_20171219_1359.py" />
+    <entry file="file://$PROJECT_DIR$/MyCar/migrations/0004_auto_20171219_0028.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/migrations/0003_auto_20171218_2048.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/migrations/0002_auto_20171218_1447.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="83" lean-forward="false" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Rank/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/rent/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="78" column="72" lean-forward="true" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Fuel/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Tariff/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Operator/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="172" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="152" lean-forward="false" selection-start-line="2" selection-start-column="152" selection-end-line="2" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tariff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Model/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/724244c7-27b7-4c81-a9fc-2bc8a6bdb343.SCHEMA:CarSharing.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>724244c7-27b7-4c81-a9fc-2bc8a6bdb343.SCHEMA:CarSharing.public</OriginalElement>
+          <nodes>
+            <node x="7.25" y="245.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group</node>
+            <node x="837.5" y="719.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_migrations</node>
+            <node x="442.5" y="719.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_fuel</node>
+            <node x="655.7870370370371" y="468.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_admin_log</node>
+            <node x="199.0" y="865.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_tariff</node>
+            <node x="230.93981481481487" y="523.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_groups</node>
+            <node x="432.78703703703707" y="146.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user</node>
+            <node x="193.97222222222223" y="223.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_permission</node>
+            <node x="1149.5" y="719.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_session</node>
+            <node x="419.78703703703707" y="523.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_user_permissions</node>
+            <node x="0.0" y="865.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_operator</node>
+            <node x="204.0" y="1055.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rent</node>
+            <node x="257.5" y="719.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rank</node>
+            <node x="429.0" y="843.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_modelcar</node>
+            <node x="540.1898148148149" y="0.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_content_type</node>
+            <node x="627.5" y="719.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_mark</node>
+            <node x="0.0" y="523.0">724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group_permissions</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group_permissions" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group">
+              <point x="-48.5" y="-48.0" />
+              <point x="-41.25" y="37.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_permission" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_content_type">
+              <point x="0.0" y="-59.0" />
+              <point x="298.47222222222223" y="121.0" />
+              <point x="590.6898148148149" y="121.0" />
+              <point x="-50.5" y="48.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rent" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_tariff">
+              <point x="0.0" y="-92.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_user_permissions" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user">
+              <point x="54.0" y="-48.0" />
+              <point x="0.0" y="136.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group_permissions" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_permission">
+              <point x="48.5" y="-48.0" />
+              <point x="145.5" y="448.0" />
+              <point x="246.22222222222223" y="448.0" />
+              <point x="-52.25" y="59.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_admin_log" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user">
+              <point x="-74.25" y="-103.0" />
+              <point x="730.0370370370371" y="448.0" />
+              <point x="681.1203703703704" y="448.0" />
+              <point x="99.33333333333337" y="136.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_user_permissions" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_permission">
+              <point x="-54.0" y="-48.0" />
+              <point x="473.78703703703707" y="438.0" />
+              <point x="350.72222222222223" y="438.0" />
+              <point x="52.25" y="59.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_admin_log" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.django_content_type">
+              <point x="74.25" y="-103.0" />
+              <point x="878.5370370370371" y="121.0" />
+              <point x="691.6898148148149" y="121.0" />
+              <point x="50.5" y="48.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_modelcar" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_mark">
+              <point x="64.0" y="-81.0" />
+              <point x="589.0" y="818.0" />
+              <point x="710.0" y="818.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rent" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_operator">
+              <point x="-66.66666666666669" y="-92.0" />
+              <point x="237.33333333333331" y="1030.0" />
+              <point x="89.5" y="1030.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_groups" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_group">
+              <point x="-40.0" y="-48.0" />
+              <point x="270.9398148148149" y="438.0" />
+              <point x="131.0" y="438.0" />
+              <point x="41.25" y="37.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_modelcar" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rank">
+              <point x="-64.0" y="-81.0" />
+              <point x="461.0" y="818.0" />
+              <point x="340.0" y="818.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user_groups" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.auth_user">
+              <point x="40.0" y="-48.0" />
+              <point x="350.9398148148149" y="448.0" />
+              <point x="482.45370370370375" y="448.0" />
+              <point x="-99.33333333333331" y="136.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_rent" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_modelcar">
+              <point x="66.66666666666669" y="-92.0" />
+              <point x="370.6666666666667" y="1030.0" />
+              <point x="525.0" y="1030.0" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_modelcar" target="724244c7-27b7-4c81-a9fc-2bc8a6bdb343.TABLE:CarSharing.public.MyCar_fuel">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9827640984908658" x="378.0" y="988.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/724244c7-27b7-4c81-a9fc-2bc8a6bdb343/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCar/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Mark/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/operators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="21" column="151" lean-forward="false" selection-start-line="21" selection-start-column="151" selection-end-line="21" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/autos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/724244c7-27b7-4c81-a9fc-2bc8a6bdb343">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>724244c7-27b7-4c81-a9fc-2bc8a6bdb343</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7447180301826848" x="626.6336390784983" y="954.1158276450512" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
